@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "842442467911",
+    "project_id": "fumusdatabase",
+    "storage_bucket": "fumusdatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842442467911:android:bda1a3016a5009eb0d5f62",
+        "android_client_info": {
+          "package_name": "lucas.gitirana.fumus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842442467911-k4gl5m9rubbeugrdnjht7s39h93tbvak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXQ-Ig3ek_BPN_cpiEbMjuGlc-cQ4snVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842442467911-k4gl5m9rubbeugrdnjht7s39h93tbvak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

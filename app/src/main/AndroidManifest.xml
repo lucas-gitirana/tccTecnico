@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lucas.gitirana.fumus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/fumus"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fumus">
+        <activity
+            android:name=".view.EditarExperiencia"
+            android:exported="false" />
+        <activity
+            android:name=".view.ListaFavoritos"
+            android:exported="true" />
+        <activity
+            android:name=".view.material.EditMaterial"
+            android:exported="true" />
+        <activity
+            android:name=".view.orgao.EditOrgao"
+            android:exported="true" />
+        <activity
+            android:name=".view.site.site.EditSites"
+            android:exported="true" />
+        <activity
+            android:name=".view.ConfiguracoesActivity"
+            android:exported="true" />
+        <activity android:name=".view.ListaOrgaos" />
+        <activity android:name=".view.ListaMateriais" />
+        <activity android:name=".view.HomeUsuarioActivity" />
+        <activity android:name=".view.ListaSites" />
+        <activity android:name=".view.LoginAdministrador" />
+        <activity android:name=".view.ExperienciasActivity" />
+        <activity android:name=".view.OrgaosActivity" />
+        <activity android:name=".view.SitesActivity" />
+        <activity android:name=".view.MateriaisActivity" />
+        <activity android:name=".view.Register" />
+        <activity android:name=".view.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.MainActivity" />
+    </application>
+
+</manifest>
